@@ -79,7 +79,7 @@
             </RecipientStatus>
             <RecipientStatus>
                 <Type>Signer</Type>
-                <Email>jfcote87@example.com</Email>
+                <Email>ICGGroup@example.com</Email>
                 <UserName>JF Cote</UserName>
                 <RoutingOrder>2</RoutingOrder>
                 <Sent>2014-11-11T13:43:46.22</Sent>
@@ -238,10 +238,10 @@
                         <YPosition>815</YPosition>
                         <TabLabel>Email Address</TabLabel>
                         <TabName>Email Address</TabName>
-                        <TabValue>jfcote87@example.com</TabValue>
+                        <TabValue>ICGGroup@example.com</TabValue>
                         <DocumentID>1</DocumentID>
                         <PageNumber>1</PageNumber>
-                        <OriginalValue>jfcote87@example.com</OriginalValue>
+                        <OriginalValue>ICGGroup@example.com</OriginalValue>
                     </TabStatus>
                     <TabStatus>
                         <TabType>DateSigned</TabType>

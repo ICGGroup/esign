@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jfcote87/ctxclient"
-	"github.com/jfcote87/esign"
-	"github.com/jfcote87/esign/v2.1/folders"
-	"github.com/jfcote87/esign/v2.1/templates"
-	"github.com/jfcote87/oauth2"
-	"github.com/jfcote87/testutils"
+	"github.com/ICGGroup/ctxclient"
+	"github.com/ICGGroup/esign"
+	"github.com/ICGGroup/esign/v2.1/folders"
+	"github.com/ICGGroup/esign/v2.1/templates"
+	"github.com/ICGGroup/oauth2"
+	"github.com/ICGGroup/testutils"
 )
 
 type TestCred struct {

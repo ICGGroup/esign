@@ -19,21 +19,21 @@
 // Usage example:
 //
 //   import (
-//       "github.com/jfcote87/esign"
-//       "github.com/jfcote87/esign/v2/diagnostics"
-//       "github.com/jfcote87/esign/v2/model"
+//       "github.com/ICGGroup/esign"
+//       "github.com/ICGGroup/esign/v2/diagnostics"
+//       "github.com/ICGGroup/esign/v2/model"
 //   )
 //   ...
 //   diagnosticsService := diagnostics.New(esignCredential)
-package diagnostics // import "github.com/jfcote87/esign/v2/diagnostics"
+package diagnostics // import "github.com/ICGGroup/esign/v2/diagnostics"
 
 import (
 	"context"
 	"net/url"
 	"strings"
 
-	"github.com/jfcote87/esign"
-	"github.com/jfcote87/esign/v2/model"
+	"github.com/ICGGroup/esign"
+	"github.com/ICGGroup/esign/v2/model"
 )
 
 // Service implements DocuSign Diagnostics Category API operations

@@ -23,13 +23,13 @@
 // Usage example:
 //
 //   import (
-//       "github.com/jfcote87/esign"
-//       "github.com/jfcote87/esign/v2/accounts"
-//       "github.com/jfcote87/esign/v2/model"
+//       "github.com/ICGGroup/esign"
+//       "github.com/ICGGroup/esign/v2/accounts"
+//       "github.com/ICGGroup/esign/v2/model"
 //   )
 //   ...
 //   accountsService := accounts.New(esignCredential)
-package accounts // import "github.com/jfcote87/esign/v2/accounts"
+package accounts // import "github.com/ICGGroup/esign/v2/accounts"
 
 import (
 	"context"
@@ -38,8 +38,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/jfcote87/esign"
-	"github.com/jfcote87/esign/v2/model"
+	"github.com/ICGGroup/esign"
+	"github.com/ICGGroup/esign/v2/model"
 )
 
 // Service implements DocuSign Accounts Category API operations

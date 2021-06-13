@@ -32,13 +32,13 @@
 // Usage example:
 //
 //   import (
-//       "github.com/jfcote87/esign"
-//       "github.com/jfcote87/esign/v2/connect"
-//       "github.com/jfcote87/esign/v2/model"
+//       "github.com/ICGGroup/esign"
+//       "github.com/ICGGroup/esign/v2/connect"
+//       "github.com/ICGGroup/esign/v2/model"
 //   )
 //   ...
 //   connectService := connect.New(esignCredential)
-package connect // import "github.com/jfcote87/esign/v2/connect"
+package connect // import "github.com/ICGGroup/esign/v2/connect"
 
 import (
 	"context"
@@ -48,8 +48,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jfcote87/esign"
-	"github.com/jfcote87/esign/v2/model"
+	"github.com/ICGGroup/esign"
+	"github.com/ICGGroup/esign/v2/model"
 )
 
 // Service implements DocuSign Connect Category API operations

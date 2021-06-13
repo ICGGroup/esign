@@ -17,21 +17,21 @@
 // Usage example:
 //
 //   import (
-//       "github.com/jfcote87/esign"
-//       "github.com/jfcote87/esign/v2/customtabs"
-//       "github.com/jfcote87/esign/v2/model"
+//       "github.com/ICGGroup/esign"
+//       "github.com/ICGGroup/esign/v2/customtabs"
+//       "github.com/ICGGroup/esign/v2/model"
 //   )
 //   ...
 //   customtabsService := customtabs.New(esignCredential)
-package customtabs // import "github.com/jfcote87/esign/v2/customtabs"
+package customtabs // import "github.com/ICGGroup/esign/v2/customtabs"
 
 import (
 	"context"
 	"net/url"
 	"strings"
 
-	"github.com/jfcote87/esign"
-	"github.com/jfcote87/esign/v2/model"
+	"github.com/ICGGroup/esign"
+	"github.com/ICGGroup/esign/v2/model"
 )
 
 // Service implements DocuSign CustomTabs Category API operations
